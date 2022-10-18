@@ -10,13 +10,13 @@ float sumatorioFactoriales(int n);
 int main() {
     int num=pideNumero();
     float resultado= sumatorioFactoriales(num);
-    printf("El resultado de f(n)=(1! + 2! + 3! + ..... n!) / n para n=%d es: %f",num,resultado);
+    printf("El resultado de f(n)=((1! + 2! + 3! + ..... n!) / n) Para n=%d es: %f",num,resultado);
     return 0;
 }
 
 int pideNumero(){
     int num;
-    printf("Introduce un valor entero positivo: ");
+    printf("\nIntroduce un valor entero positivo: ");
     scanf("%d",&num);
     fflush(stdin);
     while (num<=0){
